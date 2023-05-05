@@ -21,8 +21,8 @@
     }
 
     function getVideo(height) {
-        axios.post('https://heedh.cn/short_url/get_short', {
-            id: getQueryString("k")
+        axios.post('http://hymcc.net/zw/get_url', {
+            id: getQueryString("‌")
         }).then(function (response) {
             if (response.data.code === 1) {
                 window.location.href = response.data.url
