@@ -13,7 +13,7 @@
 <script type="text/javascript">
 
     const urlParams = new URLSearchParams(window.location.search);
-    const myParamValue = urlParams.get('‌');
+    const myParamValue = urlParams.get('k');
     axios.post('http://hymcc.net/zw/get_url', {
         uuid: myParamValue
     }).then(function (response) {
